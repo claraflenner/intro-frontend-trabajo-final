@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    color: orange;
+    font-size: larger;
+    background-color: black;
+    padding: 50px;
+    background-image:url(https://i.blogs.es/849bfe/rick-morty/840_560.jpeg);
+    height:200px;
+    background-position: center;
+    background-size:cover;
+}
+main{
+    /* background-image:url(https://i.blogs.es/849bfe/rick-morty/840_560.jpeg);
+    height:100vh;
+    background-position: center;
+    background-size:cover; */
+    background-color: rgb(203, 141, 25);
+}
+.titulo{
+    color: rgb(103, 201, 103);
+    text-align: center;
+    font-size:x-large;
+    font-weight: bold;
+}
+.titulo-2{
+    color: white;
+}
+.sinopsis{
+    color: white;
+}
+footer{
+    background-color: black;
+    color: rgb(103, 201, 103);
+}
+.img-container{
+    display: inline;
+    margin-top: 50px;
+
+
+}
+.character-img{
+    width: 100px;
+    border-radius: 20px;
+    display: inline;
+    margin-top: 50px;
+   
+
+   
+}
+.option-name{
+    color: rgb(244, 239, 239);
+    display: inline;
+    margin-top: 50px;
+
+
+    
+}
