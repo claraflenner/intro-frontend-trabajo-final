@@ -1,4 +1,4 @@
-const $container = document.getElementById("img-container");
+const $container = document.getElementById("container");
 
 const URL_API = "https://rickandmortyapi.com/api/character";
 
@@ -12,8 +12,9 @@ fetch(URL_API)
     for (let character of characters) {
       console.log(character);
       $container.innerHTML += `
-        <li class="option-name"> <img class="character-img" src="${character.image}" alt="imagen de ${character.name}"> ${character.name}
-        </li>
+        <div class="option-name"> <img class="character-img" src="${character.image}" alt="imagen de ${character.name}"> 
+        <h3>${character.name}</h3>
+        </div>
       `;
     }
   });
